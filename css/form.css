@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Reset */
+@font-face {
+   font-family: myFirstFont;
+    src: url(../fonts/Kentucky.otf);
+}
+body{
+	background: url("../images/back.jpg");
+	width:100%;
+}
+.container {
+	width:40%;
+    height: 100%;
+    background-color:white;
+    margin: 0px auto;
+    font-size: 20px;
+    font-family: myFirstFont;
+    border:1px solid lightblue;
+    box-shadow:0px 0px 0px 0px lightblue;
+    text-decoration: none;
+}
+div form  {
+	color: DodgerBlue;
+	margin: 15px;
+}
+div h2{
+	text-align: center;
+}
+
+div a{
+	text-decoration: none;
+}
+div figcaption, p{
+	text-align: center;
+}
+div p a{
+	color:orange;
+}
+div a:hover{
+	color:red;
+}
+div a:visited{
+	color:yellow;
+}
+
+div input{
+	color:blue;
+}
+#button input{
+	background-color:lightgreen;
+}
+
